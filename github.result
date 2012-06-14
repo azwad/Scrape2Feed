@@ -1,0 +1,254 @@
+---
+- ~
+- container:
+    - entry_content: 'jQuery 1.8 will allow you to create custom builds that only include the modules you need: <a class="twitter_external_link" href="https://t.co/irnvmzeZ" rel="nofollow" target="_blank">github.com/jquery/jquery#…</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/mathias/status/212514116068327426
+      entry_title: ⚞ Mathias Bynens ⚟
+    - entry_content: 'Rails 3.2.6 has been released, provides security fixes <a class="twitter_external_link" href="http://t.co/3Zp2BcZy" rel="nofollow" target="_blank">j.mp/Kt0gmL</a> Updated the &quot;Installing&quot; guide <a class="twitter_external_link" href="http://t.co/pNXLyPMc" rel="nofollow" target="_blank">j.mp/ys5Kuv</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/rails_apps/status/212933751561388032
+      entry_title: Daniel Kehoe
+    - entry_content: 'also we open sourced Elephant Twin for <a class="twitter-atreply" href="/hadoopsummit">@hadoopsummit</a>, a small utility for creating indexes in <a class="twitter-hashtag" href="/search?q=%23hadoop">#hadoop</a> <a class="twitter_external_link" href="https://t.co/xV1JRtZh" rel="nofollow" target="_blank">github.com/twitter/elepha…</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/TwitterOSS/status/212932890424639488
+      entry_title: Twitter Open Source
+    - entry_content: 'if <a class="twitter-atreply" href="/github">@github</a>&apos;s deprecation of v2 api broke your <a class="twitter-atreply" href="/jenkinsci">@jenkinsci</a> authentication, you should do this <a class="twitter_external_link" href="https://t.co/16vuBQOL" rel="nofollow" target="_blank">github.com/mocleiri/githu…</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/plentz/status/212890848201940992
+      entry_title: Diego Plentz
+    - entry_content: 'jQuery Handsontable Brings Excel-like Functionality to your Tables <a class="twitter_external_link" href="http://t.co/qHaGMe8T" rel="nofollow" target="_blank">ttzn.co/L6wlAh</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/Tutorialzine/status/212888561878441984
+      entry_title: Martin Angelov
+    - entry_content: 'Exploring Expressions of Emotions in <a class="twitter-hashtag" href="/search?q=%23github">#github</a> Commit Messages <a class="twitter_external_link" href="http://t.co/yfC5hTX9" rel="nofollow" target="_blank">geeksta.net/geeklog/explor…</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/javaguirre/status/212874220550623233
+      entry_title: Javier Aguirre
+    - entry_content: 'We just released django CMS 2.3 RC1 on GitHub (with Djagno 1.4 support and much more!), read more at <a class="twitter_external_link" href="http://t.co/PEekIRqy" rel="nofollow" target="_blank">bit.ly/django-cms-2-3…</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/djangocms/status/212873758132805632
+      entry_title: django CMS
+    - entry_content: 'Scala &quot;port&quot; of to C#&apos;s Async based on Scala&apos;s delimited continuations and Akka&apos;s Futures: <a class="twitter_external_link" href="https://t.co/HlXKzyGP" rel="nofollow" target="_blank">github.com/danielkroeni/s…</a> <a class="twitter-hashtag" href="/search?q=%23akka">#akka</a> <a class="twitter-hashtag" href="/search?q=%23scala">#scala</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/jboner/status/212872567961305088
+      entry_title: Jonas Bonér
+    - entry_content: 'Very useful: Dummy is a simple PHP toolkit, designed to make the development, testing and presentation of web - <a class="twitter_external_link" href="http://t.co/egEgMG2L" rel="nofollow" target="_blank">bit.ly/LVa5rk</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/smashingmag/status/212869453627666433
+      entry_title: Smashing Magazine
+    - entry_content: 'Objective-C, PHP and Perl make you happy: <a class="twitter_external_link" href="http://t.co/JXhaGhNI" rel="nofollow" target="_blank">geeksta.net/geeklog/explor…</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/janl/status/212821297938436097
+      entry_title: Jan Lehnardt
+    - entry_content: '<a class="twitter-hashtag" href="/search?q=%23Silexphp">#Silexphp</a> is about to have built-in support for the <a class="twitter-hashtag" href="/search?q=%23Symfony">#Symfony</a> security component. <a class="twitter_external_link" href="https://t.co/LGUlH0BB" rel="nofollow" target="_blank">github.com/fabpot/Silex/p…</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/fabpot/status/212820760480329728
+      entry_title: Fabien Potencier
+    - entry_content: 'I added a go and java/webbit implementation to my websocket benchmarks: <a class="twitter_external_link" href="https://t.co/NiBcixY5" rel="nofollow" target="_blank">github.com/ericmoritz/wsd…</a> Erlang still wins the c10k race.'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/ericmoritz/status/212800296408203265
+      entry_title: Eric Moritz
+    - entry_content: 'jQuery 1.8 will allow you to create custom builds that only include the modules you need: <a class="twitter_external_link" href="https://t.co/irnvmzeZ" rel="nofollow" target="_blank">github.com/jquery/jquery#…</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/mathias/status/212514116068327426
+      entry_title: ⚞ Mathias Bynens ⚟
+    - entry_content: 'CryptOMG, a configurable CTF-style vulnerability testbed for cryptographic flaws, has just launched! Get it at <a class="twitter_external_link" href="https://t.co/AKes43Ys" rel="nofollow" target="_blank">github.com/SpiderLabs/Cry…</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/dan_crowley/status/212315545280847874
+      entry_title: Baron Daniel Crowley
+    - entry_content: 'The official IDA Toolbag GitHub repo is online with version 1.0: <a class="twitter_external_link" href="https://t.co/6byytib1" rel="nofollow" target="_blank">github.com/aaronportnoy/t…</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/aaronportnoy/status/212016445343801344
+      entry_title: Aaron Portnoy
+    - entry_content: 'A set of simple HTML pages with various viewport and media query settings by <a class="twitter-atreply" href="/andreasbovens">@andreasbovens</a> - <a class="twitter_external_link" href="http://t.co/nGb4uxhA" rel="nofollow" target="_blank">bit.ly/K0Q4NA</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/smashingmag/status/211550771160952832
+      entry_title: Smashing Magazine
+    - entry_content: 'All of the Windows Azure SDKs are now developed on GitHub and licensed under an Apache 2 license: <a class="twitter_external_link" href="https://t.co/pcfwqG5e" rel="nofollow" target="_blank">github.com/WindowsAzure/</a>'
+      entry_date: Thu Jun 14 01:17:40 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/scottgu/status/211537323240853504
+      entry_title: Scott Guthrie
+    - entry_content: 'Principles of writing consistent, idiomatic CSS - <a class="twitter_external_link" href="https://t.co/qapGcJni" rel="nofollow" target="_blank">github.com/necolas/idioma…</a>'
+      entry_date: Thu Jun 14 01:17:41 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/necolas/status/211168981183250432
+      entry_title: Nicolas Gallagher
+    - entry_content: One of GitHub&apos;s biggest advantages over other employers is their commitment to remote employees. This should not be understated.
+      entry_date: Thu Jun 14 01:17:41 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/obfuscurity/status/211127539333218305
+      entry_title: Jason Dixon
+    - entry_content: 'Scott Guthrie from MSFT on stage, using a Mac, talking about Linux and how they accept pull requests on GitHub. Bizarro. <a class="twitter-hashtag" href="/search?q=%23windowsazure">#windowsazure</a>'
+      entry_date: Thu Jun 14 01:17:41 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/argv0/status/210827519782424577
+      entry_title: Andy Gross
+  next_page: !!perl/scalar:URI::https https://mobile.twitter.com/search?max_id=210827519782424577&q=github
+  site_title: Search Twitter
+  url: https://mobile.twitter.com/search?q=github&x=24&y=11
+- container:
+    - entry_content: 'Scott Guthrie from MSFT on stage, using a Mac, talking about Linux and how they accept pull requests on GitHub. Bizarro. <a class="twitter-hashtag" href="/search?q=%23windowsazure">#windowsazure</a>'
+      entry_date: Thu Jun 14 01:17:43 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/argv0/status/210827519782424577
+      entry_title: Andy Gross
+    - entry_content: 'Scott Guthrie from MSFT on stage, using a Mac, talking about Linux and how they accept pull requests on GitHub. Bizarro. <a class="twitter-hashtag" href="/search?q=%23windowsazure">#windowsazure</a>'
+      entry_date: Thu Jun 14 01:17:43 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/argv0/status/210827519782424577
+      entry_title: Andy Gross
+    - entry_content: 'Redis 2.6.0-RC4 released, a massive release. Changelog: <a class="twitter_external_link" href="http://t.co/wNo3eo4C" rel="nofollow" target="_blank">bit.ly/Jf8ZBn</a>, Download from <a class="twitter_external_link" href="http://t.co/YrLRdFEm" rel="nofollow" target="_blank">redis.io/download</a>'
+      entry_date: Thu Jun 14 01:17:43 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/antirez/status/210669774361989120
+      entry_title: Salvatore Sanfilippo
+    - entry_content: 'Hammer.js: a JavaScript library for multi-touch gestures - <a class="twitter_external_link" href="http://t.co/sBlf7HMI" rel="nofollow" target="_blank">bit.ly/GG2kAC</a> <a class="twitter-hashtag" href="/search?q=%23useful">#useful</a>'
+      entry_date: Thu Jun 14 01:17:43 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/smashingmag/status/210666180652969984
+      entry_title: Smashing Magazine
+    - entry_content: 'Zipkin - distributed tracing by Twitter (aka Google Dapper) <a class="twitter_external_link" href="http://t.co/hxaDscKX" rel="nofollow" target="_blank">j.mp/Ln4uev</a>'
+      entry_date: Thu Jun 14 01:17:43 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/newsycombinator/status/210613319906758656
+      entry_title: news.yc Popular
+    - entry_content: 'Zipkin is a distributed tracing system (built by Twitter): <a class="twitter_external_link" href="http://t.co/0mwfd8pZ" rel="nofollow" target="_blank">bit.ly/Ln4ueu</a> - modelled after Google Dapper - great stuff!'
+      entry_date: Thu Jun 14 01:17:43 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/igrigorik/status/210592406020689920
+      entry_title: Ilya Grigorik
+    - entry_content: 'Select2 - A better way to make select boxes (with jQuery) <a class="twitter_external_link" href="http://t.co/FSJDtqD9" rel="nofollow" target="_blank">j.mp/I01fCp</a>'
+      entry_date: Thu Jun 14 01:17:43 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/newsycombinator/status/210583122255945728
+      entry_title: news.yc Popular
+    - entry_content: 'My Flipboard-style CSS 3D demos from <a class="twitter-atreply" href="/fullscreenpdx">@fullscreenpdx</a> are on GitHub: <a class="twitter_external_link" href="https://t.co/bAl0YTfy" rel="nofollow" target="_blank">github.com/tdreyno/fullsc…</a> Maybe I&apos;ll blog about it soon.'
+      entry_date: Thu Jun 14 01:17:43 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/tdreyno/status/210555305015246849
+      entry_title: Thomas Reynolds
+    - entry_content: 'I compiled a list of readings in databases with short comments on each paper: <a class="twitter_external_link" href="http://t.co/vNT8Rfxs" rel="nofollow" target="_blank">rxin.github.com/db-readings/</a> still updating. <a class="twitter-atreply" href="/pbailis">@pbailis</a>'
+      entry_date: Thu Jun 14 01:17:43 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/rxin/status/210538600708845568
+      entry_title: Reynold Xin
+    - entry_content: 'Make Better Select Boxes with Chosen <a class="twitter_external_link" href="http://t.co/7rDlScjv" rel="nofollow" target="_blank">j.mp/rfbV8f</a>'
+      entry_date: Thu Jun 14 01:17:44 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/newsycombinator/status/210492523783786497
+      entry_title: news.yc Popular
+    - entry_content: 'Is GitHub government&apos;s next big thing? <a class="twitter_external_link" href="http://t.co/TIU4nQuQ" rel="nofollow" target="_blank">fedscoop.com/is-github-gove…</a> - Nice article on the future of open source in government'
+      entry_date: Thu Jun 14 01:17:44 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/github/status/210473664011976705
+      entry_title: GitHub
+    - entry_content: 'New GitHub Enterprise Release! <a class="twitter_external_link" href="https://t.co/AdMW1Uuw" rel="nofollow" target="_blank">github.com/blog/1144-gith…</a>'
+      entry_date: Thu Jun 14 01:17:44 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/github/status/210443029805400064
+      entry_title: GitHub
+    - entry_content: 'WOW!!!!! dancer.js, a high level audio <a class="twitter-hashtag" href="/search?q=%23JavaScript">#JavaScript</a> api to make sweet visualizations <a class="twitter_external_link" href="http://t.co/6lm2TyF2" rel="nofollow" target="_blank">bit.ly/Ngy0mQ</a>'
+      entry_date: Thu Jun 14 01:17:44 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/soyjavi/status/210291201298010112
+      entry_title: Javi Jiménez Villar
+    - entry_content: 'gmaps.js: a light-weight Google Maps API - <a class="twitter_external_link" href="http://t.co/psgesSEq" rel="nofollow" target="_blank">bit.ly/KLq3mp</a> - Looks promising.'
+      entry_date: Thu Jun 14 01:17:44 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/smashingmag/status/210264884552806400
+      entry_title: Smashing Magazine
+    - entry_content: 'API changes between v0.6 and v0.8 <a class="twitter_external_link" href="https://t.co/kP0IRVIp" rel="nofollow" target="_blank">github.com/joyent/node/wi…</a> (it&apos;s not as much as it looks - try master!)'
+      entry_date: Thu Jun 14 01:17:44 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/nodejs/status/210218802451972097
+      entry_title: node js
+    - entry_content: 'Run node.js applications as windows services using nssm: <a class="twitter_external_link" href="http://t.co/knVJSoSS" rel="nofollow" target="_blank">jfromaniello.github.com/winser/</a>'
+      entry_date: Thu Jun 14 01:17:44 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/nodejs/status/210153459700346880
+      entry_title: node js
+    - entry_content: 'Introducing Help Next! <a class="twitter_external_link" href="https://t.co/MJgHlF6i" rel="nofollow" target="_blank">github.com/blog/1149-intr…</a>'
+      entry_date: Thu Jun 14 01:17:44 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/github/status/210131401213878272
+      entry_title: GitHub
+    - entry_content: 'Real time <a class="twitter-hashtag" href="/search?q=%23nodejs">#nodejs</a> logs from Windows Azure to MacOS console coming up next in git-azure <a class="twitter_external_link" href="http://t.co/5HOV8fUO" rel="nofollow" target="_blank">bit.ly/Kmf2uE</a> <a class="twitter_external_link" href="http://t.co/wyGFfmvR" rel="nofollow" target="_blank">twitpic.com/9t6zyn</a>'
+      entry_date: Thu Jun 14 01:17:44 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/tjanczuk/status/210129885518241792
+      entry_title: Tomasz Janczuk
+    - entry_content: 'What&apos;s it like to work at GitHub? <a class="twitter_external_link" href="http://t.co/Ij6CvakI" rel="nofollow" target="_blank">bit.ly/L0kHng</a>'
+      entry_date: Thu Jun 14 01:17:44 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/bkeepers/status/210004094419607554
+      entry_title: Brandon Keepers
+    - entry_content: 'A great thread on GitHub: «meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;» doesn&apos;t act right - <a class="twitter_external_link" href="http://t.co/zkKOBj4M" rel="nofollow" target="_blank">bit.ly/JF4GQD</a>'
+      entry_date: Thu Jun 14 01:17:44 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/smashingmag/status/209976644906139648
+      entry_title: Smashing Magazine
+  next_page: !!perl/scalar:URI::https https://mobile.twitter.com/search?max_id=209976644906139648&q=github
+  site_title: Search Twitter
+  url: !!perl/scalar:URI::https https://mobile.twitter.com/search?max_id=210827519782424577&q=github
+- container:
+    - entry_content: 'IFTTT wants a iOS / Mobile Engineer - <a class="twitter_external_link" href="http://t.co/NvNjGH9V" rel="nofollow" target="_blank">bit.ly/KLm8HX</a>'
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/GitHubJobs/status/209841486555127810
+      entry_title: GitHub Jobs
+    - entry_content: 'A great thread on GitHub: «meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;» doesn&apos;t act right - <a class="twitter_external_link" href="http://t.co/zkKOBj4M" rel="nofollow" target="_blank">bit.ly/JF4GQD</a>'
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/smashingmag/status/209976644906139648
+      entry_title: Smashing Magazine
+    - entry_content: 'Hashing typeclass added to Scala 2.10 <a class="twitter_external_link" href="https://t.co/VAUrtjZz" rel="nofollow" target="_blank">github.com/scala/scala/pu…</a>'
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/ijuma/status/209972400866066432
+      entry_title: Ismael Juma
+    - entry_content: 'Discovering Font-Awesome! That&apos;s really awesome! <a class="twitter_external_link" href="http://t.co/X5vcXp2n" rel="nofollow" target="_blank">fortawesome.github.com/Font-Awesome/</a>'
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/hhamon/status/209962167330545664
+      entry_title: Hugo Hamon
+    - entry_content: 'Timbre - JavaScript Library for Objective Sound Programming - <a class="twitter_external_link" href="http://t.co/Q8PqWgsW" rel="nofollow" target="_blank">bit.ly/Neiecn</a>'
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/umutm/status/209957079245533185
+      entry_title: Umut Muhaddisoglu
+    - entry_content: <a class="twitter-hashtag" href="/search?q=%23Help">#Help</a> Please RT <a class="twitter-atreply" href="/vijayanands">@vijayanands</a> Does anyone know of any contacts in Github?
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/mohakprince/status/209951467518427136
+      entry_title: Mohak Prince
+    - entry_content: 'Interface designers, here&apos;s something for you: Font Awesome just added 70 new, free vector icons! <a class="twitter_external_link" href="http://t.co/kqGSkUwi" rel="nofollow" target="_blank">fortawesome.github.com/Font-Awesome/</a>'
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/envisprecisely/status/209944079868493825
+      entry_title: envis precisely
+    - entry_content: 'the main loop of Sentinel so far -&gt; <a class="twitter_external_link" href="https://t.co/UyZixCcf" rel="nofollow" target="_blank">gist.github.com/2873831</a> /cc <a class="twitter-atreply" href="/hrishio">@hrishio</a>'
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/antirez/status/209939032229167105
+      entry_title: Salvatore Sanfilippo
+    - entry_content: 'The demonstration of animatable CSS properties by <a class="twitter-atreply" href="/LeaVerou">@LeaVerou</a> <a class="twitter_external_link" href="http://t.co/GZdwRbz1" rel="nofollow" target="_blank">leaverou.github.com/animatable/</a>'
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/aral/status/209937822235361280
+      entry_title: Aral Balkan
+    - entry_content: 'We&apos;re looking for a Lead Developer Ruby on Rails in NYC : <a class="twitter_external_link" href="https://t.co/1LZEJwVR" rel="nofollow" target="_blank">jobs.github.com/positions/bf48…</a> cc <a class="twitter-atreply" href="/officialfm">@officialfm</a>'
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/bcolon/status/209923867593027584
+      entry_title: Ben Colon
+    - entry_content: 'I don’t usually get mail from Michael Jackson, <a class="twitter-atreply" href="/mjackson">@mjackson</a>, but when I do, he rewites mustache.js <a class="twitter_external_link" href="https://t.co/sDa4nbyt" rel="nofollow" target="_blank">github.com/janl/mustache.…</a> <a class="twitter_external_link" href="https://t.co/38BZTQtz" rel="nofollow" target="_blank">github.com/janl/mustache.…</a>'
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/janl/status/209915492092219393
+      entry_title: Jan Lehnardt
+    - entry_content: 'OH: &quot;I wonder how much github you have to snort to make such a spectacular page about a font&quot;'
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/danparsons/status/209914754603556864
+      entry_title: Dan Parsons
+    - entry_content: 'Font Awesome 2.0 - 70 new icons, desktop font, vectors, IE7 support <a class="twitter_external_link" href="http://t.co/xlhozJ1N" rel="nofollow" target="_blank">bit.ly/JHrYpx</a> (<a class="twitter_external_link" href="http://t.co/84WacKM2" rel="nofollow" target="_blank">bit.ly/JHrYpu</a>)'
+      entry_date: Thu Jun 14 01:17:57 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/newsyc100/status/209891560895152128
+      entry_title: Hacker News 100
+    - entry_content: 'Alright it&apos;s done! A nest ruby gem (with tests)! Github: <a class="twitter_external_link" href="https://t.co/iOgifnDq" rel="nofollow" target="_blank">github.com/ericboehs/nest…</a> or gem install nest_thermostat /cc: <a class="twitter-atreply" href="/DataChomp">@DataChomp</a>, <a class="twitter-atreply" href="/jackbewley">@jackbewley</a>'
+      entry_date: Thu Jun 14 01:17:58 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/ericboehs/status/209884479425232897
+      entry_title: Eric Boehs
+    - entry_content: 'Facebook unveils Folly, an open-source C++ library <a class="twitter_external_link" href="http://t.co/LQ8SO2Gn" rel="nofollow" target="_blank">bit.ly/K9b9dl</a>'
+      entry_date: Thu Jun 14 01:17:58 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/BrunoFonzi/status/209862165186871297
+      entry_title: Bruno Fonzi
+    - entry_content: 'IFTTT wants a iOS / Mobile Engineer - <a class="twitter_external_link" href="http://t.co/NvNjGH9V" rel="nofollow" target="_blank">bit.ly/KLm8HX</a>'
+      entry_date: Thu Jun 14 01:17:58 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/GitHubJobs/status/209841486555127810
+      entry_title: GitHub Jobs
+    - entry_content: 'Font Awesome 2.0 has 70 shiny new font icons <a class="twitter_external_link" href="http://t.co/7VC1teUH" rel="nofollow" target="_blank">fortawesome.github.com/Font-Awesome/</a>'
+      entry_date: Thu Jun 14 01:17:58 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/mahemoff/status/209826853261815808
+      entry_title: Michael Mahemoff
+    - entry_content: 'JSX,HaXeで盛り上がってますが、他にもこんなに大量にありましてね <a class="twitter_external_link" href="https://t.co/4t61BhjW" rel="nofollow" target="_blank">github.com/jashkenas/coff…</a> 作りすぎだろ'
+      entry_date: Thu Jun 14 01:17:58 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/xuwei_k/status/209825995837026304
+      entry_title: Kenji Yoshida
+    - entry_content: 'Font Awesome is…. awesome! <a class="twitter_external_link" href="http://t.co/11x7TkZD" rel="nofollow" target="_blank">fortawesome.github.com/Font-Awesome/</a>'
+      entry_date: Thu Jun 14 01:17:58 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/talios/status/209823151478161408
+      entry_title: Mark Derricutt
+    - entry_content: 'Backbone.Syphon v0.3.0 - now supports deserializing an object&apos;s values in to a form: <a class="twitter_external_link" href="https://t.co/aQANbLu1" rel="nofollow" target="_blank">github.com/derickbailey/b…</a> thx to <a class="twitter-atreply" href="/scttnlsn">@scttnlsn</a> for that!'
+      entry_date: Thu Jun 14 01:17:58 2012
+      entry_permalink: !!perl/scalar:URI::https https://mobile.twitter.com/derickbailey/status/209801759818919938
+      entry_title: derickbailey
+  next_page: !!perl/scalar:URI::https https://mobile.twitter.com/search?max_id=209801759818919938&q=github
+  site_title: Search Twitter
+  url: !!perl/scalar:URI::https https://mobile.twitter.com/search?max_id=209976644906139648&q=github

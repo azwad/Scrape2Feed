@@ -1,0 +1,106 @@
+---
+- ~
+- container:
+    - entry_content: '<p>ナタリーPower Pushでは「アナタの好きなTHE YELLOW MONKEYの曲を教えてください！」と題した投票企画を実施中。 6月20日よりTHE YELLOW MONKEYの全アルバムおよびビデオクリップの一斉配信がスタート。これに先駆け前日19日に、新たな2大企画が実施される。 2つの企画は、20日からの一斉配信を盛り上げるため急遽決定したもの。1つ目の企画は19日0:00からレコチョ...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://natalie.mu/music/news/71025
+      entry_title: 'ナタリー - イエモン一斉配信直前に全シングル100円配信＆ニコ生特番'
+    - entry_content: '<p>Apple社が『WWDC 2012』で発表した中から、各種ヴァーチャル・チケット類をまとめた新しいアプリ『Passbook』と、「非Google」となった『Maps』を詳しく紹介。</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://wired.jp/2012/06/12/gadget-lab-wwdc-2012/
+      entry_title: iOSの新ツール：チケット管理と独自の地図システム
+    - entry_content: '<p> アップルが WWDC 2012 で発表した新 MacBook Pro (Retinaディスプレイモデル) の実機ギャラリーをお届けします。最大の特徴は 15.4インチ 2880 x 1800 の Retina ディスプレイ採用。ですが、15インチMacBook Pro 史上で最薄 1.8cm、最軽量 2.02kg になった新筐体も大きな差別化要素です。 製品名に「Retinaディスプレイ...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://japanese.engadget.com/2012/06/11/macbook-pro-retina/
+      entry_title: アップル MacBook Pro Retinaディスプレイモデル 実機ギャラリー＆動画
+    - entry_content: '<p>建屋の中を見上げると、古びたコンクリートの壁を木の補強材が支える。1910年の創業当時から残る建屋だ。その下では、100年前と変わらずに産業用のモーターを組み立てている。 日立事業所（茨城県日立市）は日立製作所の発祥の地だ。事業所を構成している5つの工場のうち、この山手工場が最初の量産工場になる。創業当初の建屋は、建て増しを重ねて大きく広がった。そして、昔にも増して繁忙を極める。 黒く塗られたモー...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://business.nikkeibp.co.jp/article/opinion/20120608/233138/
+      entry_title: 日立、発祥の地で生き続ける競争力：日経ビジネスオンライン
+    - entry_content: '<p>総務省、NHKによるロンドン五輪ネット配信を認可 －TV放送されない競技を、延べ1,000時間ライブ配信 総務省は13日、NHKから申請のあったロンドンオリンピック(7月27日～8月12日)における競技映像のインターネット配信について、認可を行なうと発表した。 これにより、ロンドンオリンピックにおいて、NHKや民放の生中継に含まれない競技種目(数種目～20種目程度)について、生中継映像をNHKのホ...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://av.watch.impress.co.jp/docs/news/20120613_539986.html
+      entry_title: 総務省、NHKによるロンドン五輪ネット配信を認可 -AV Watch
+    - entry_content: '<p>ローソン海外事業研究部 ローソン入社2年目の若手と、13年目の中堅社員2名で構成している。同社のいろいろな取り組みを社内ブログなどに執筆し、情報発信することが主な活動。 コラム『ローソンの海外物語』では海外事業をどのように展開してきたのか、現地のコンビニではどのような商品が売れているのか、といった内容を紹介していく。 日本ではコンビニがあって当たり前になりましたが、さて中国ではどのような状況なので...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://bizmakoto.jp/makoto/articles/1206/13/news003.html
+      entry_title: Business Media 誠：新連載・ローソンの海外物語（中国編）：中国のコンビニで「おでん」が売れた理由 (1/4)
+    - entry_content: '<p>「ゆううつを、Happyに変えよう。」 バニラは生理用品定期お届けサービスです。 毎月来る”お客様”をお祝いするみたいに、毎月誰かが生理用品をかわいくプレゼントしてくれたら。そうしたらもう少しだけ、生理が楽しみになるのにな。 そんな想いが、このvanilla(バニラ)のはじまりでした。 あなたの生活を、もっと楽しく、便利に。 vanilla(バニラ)は、毎月のゆううつな時を楽しみに変えるお手伝いを...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://vanilla-day.com/
+      entry_title: 'バニラ - 生理用品定期お届けサービス'
+    - entry_content: '<p>学食に“おひとり様”席を設置、学園祭には強制参加。今、大学が過保護すぎる理由とは？ 週プレNEWS 6月13日(水)6時0分配信 英語のシラバスがアルファベットの書き方から始まる、入学試験の不合格者数がゼロだったなどなど。低偏差値のいわゆる「Ｆラン大学」のおかしなエピソードは、定期的にネットをにぎわしている。 だが、今の大学は偏差値の高低を問わず、もっとすごいことになっていると言うのが、大学研究家...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://zasshi.news.yahoo.co.jp/article?a=20120613-00000000-playboyz-soci
+      entry_title: '学食に“おひとり様”席を設置、学園祭には強制参加。今、大学が過保護すぎる理由とは？ （週プレNEWS） - Yahoo!ニュース'
+    - entry_content: '<p>介護施設の価格はこれからもっと上がる。ただでさえ若い人が働くのが厳しくなって、じゃあ自宅で介護をするのなら仕事を諦めざるを得ない、という状況が発生したら、共倒れになる。お金は払えない、自宅では介護ができない、「ない」を重ねる人は増えこそスレ、絶対に減らない by lucifer_af</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://togetter.com/li/317153
+      entry_title: '特にどこも悪くないけれど、一生入院希望です - Togetter'
+    - entry_content: '<p>スウェーデンのストックホルム（Stockholm）市庁舎で行われたノーベル賞（Nobel Prize）受賞者の舞踏会（2011年12月10日撮影、資料写真）。(c)AFP/SCANPIX/HENRIK MONTGOMERY 【6月12日 AFP】今年のノーベル賞（Nobel Prize）受賞者が手にする賞金は、過去の受賞者たちよりも少なくなりそうだ。賞を運営するノーベル財団（Nobel Found...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://www.afpbb.com/article/economy/2883570/9101279
+      entry_title: '今年のノーベル賞の賞金を20％減額、金融危機の影響で　国際ニュース : AFPBB News'
+    - entry_content: '<p>先週ワシントン・ポスト紙（電子版）に「日本ではファックスが今でも健在。理由は言語と文化のため」という記事が掲載されていました。 この記事自体は、その原因として「コンピュータが日本語に対応していないから」とか「旧電電以来の保守性のためブロードバンドの通信費が高価なため」などという指摘をするなど、やや的外れな解説も含まれており、気軽に書いた「異文化レポートもの」の域を出ないものでした。 ですが、確かに...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://www.newsweekjapan.jp/reizei/2012/06/post-444.php
+      entry_title: 日本のオフィス仕事では、どうして「原本」が大事なのか？ | 冷泉彰彦 | コラム＆ブログ | ニューズウィーク日本版 オフィシャルサイト
+    - entry_content: '<p>Apple , MacOS , キーボード , ハードウェア , マウス 「Shift＋Option＋音量キー」で、OS Xのボリュームを微調整 2012.06.12 22:30 Macを使っていて不便だと感じることの一つが、ボリューム調整をする時。普通にボリュームアップ（ダウン）のボタンを押すと、一段階ごとの差がなかなか激しいため、ちょうど良いボリュームに設定することが難しいのです。ですが、ボリ...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://www.lifehacker.jp/2012/06/120611shiftoptionosx.html
+      entry_title: '「Shift＋Option＋音量キー」で、OS Xのボリュームを微調整 : ライフハッカー［日本版］'
+    - entry_content: '<p>ディスプレイ、処理能力、プロダクトデザイン。そのすべてにおいてこだわり抜かれた「MacBook Pro Retinaディスプレイモデル」。業界アナリストたちはこれを「種の進化」だと言い表し、他と比べて少なくとも1年は先を行っているという。 アップルの新しいMacBook Proは高性能なデスクトップコンピューター並に速く、MacBook Airと並べられるほど薄く、ノートパソコンのディスプレイとし...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://wired.jp/2012/06/13/macbookpro-retina/
+      entry_title: 「新MacBook Proは種の進化だ」 « WIRED.jp 世界最強の「テクノ」ジャーナリズム
+    - entry_content: '<p>以前「女性向け」製品はピンクか白ばっかで「男性向け＝スタンダード」とかなんなんだよ携帯の需要見ろよっつう愚痴を書いて絶大な反響（当社比）があった件、知人の派手かつ上品なデザイン好きディレクター♀がそういう女性向け携帯プロジェクトを進めてることが判明したので周知しときまん。</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://togetter.com/li/320152
+      entry_title: '「ピンク＝女性向け」？ - Togetter'
+    - entry_content: '<p>Webツール , その他 , キャリアアップ , コミュニケーション , リクルート , 仕事術 あなたのキャリアアップを加速させる、LinkedInの「4つ」の特色＆登録方法 2012.06.13 21:00 2012年6月現在、SNSといえばTwitterやFacebookがメジャーです。最近ではPinterestといったSNSも登場しています。しかし、ビジネス特化型SNSである「Linked...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://www.lifehacker.jp/2012/06/120611linkedinhowto.html
+      entry_title: 'あなたのキャリアアップを加速させる、LinkedInの「4つ」の特色＆登録方法 : ライフハッカー［日本版］'
+    - entry_content: '<p>印刷 一刻も早いデフレからの脱却を訴える中澤正彦准教授メモをとりながら講義を聴く受講生。日本のデフレの状態を示す各種のグラフを熱心に見つめていた椅子取りゲームの写真を見せながらデフレの弊害を説く中澤准教授。「椅子に座れていない人」を含めた社会全体の利益を考えていくべきだ、と主張した 　京都大学が東京・品川の「京大東京オフィス」で開く連続講座「東京で学ぶ　京大の知」（朝日新聞社後援）のシリーズ７「新...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://www.asahi.com/edu/news/TKY201206120300.html
+      entry_title: '朝日新聞デジタル：「日本のデフレの真実と克服する方法」　京大・中澤准教授が講演 - 教育'
+    - entry_content: '<p>国内で使われている衣料品の洗濯絵表示が変更される。経済産業省は、日本工業規格（ＪＩＳ）表示を改正し、平成２６年度にも国際標準化機構（ＩＳＯ）が定めた国際規格に合わせる方針だ。現行の２２種類から４１種類と大幅に増えるうえ、長年親しまれてきた表示の変更に混乱も懸念される。どんな点に注意をすればいいのか。（油原聡子） ◆基本は「たらい」 洗濯絵表示は、家庭用品品質表示法で洋服のラベルなどに記すことが義務...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://headlines.yahoo.co.jp/hl?a=20120613-00000514-san-soci
+      entry_title: '洗濯の絵表示、国際規格に統一へ　見慣れぬ記号も （産経新聞） - Yahoo!ニュース'
+    - entry_content: '<p>ホンダでエアバッグを開発した小林三郎氏（現在は中央大学 大学院 戦略経営研究科 客員教授、元・ホンダ 経営企画部長）が、ホンダ流のアプローチを紹介しつつイノベーションの本質に迫る本連載。前回に続いて今回は、ホンダが重視する「絶対価値」という考え方を解説する。（日経ものづくり編集部） ホンダが絶対価値を徹底的に重要視していることを強烈に示す“事件”を筆者は体験している。入社2年目の1972年に行われ...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://www.nikkei.com/article/DGXNASFK2801O_Y2A520C1000000/
+      entry_title: 他社の話なんて聞きたくない　「絶対価値」とは（後編）　：日本経済新聞
+    - entry_content: '<p>牛のレバ刺しが７月１日から禁止されます。残念です。近年まれに見る残念な規制強化です。 学生時代３年間、もつ焼き屋さんでバイトをしていました。もう閉店してしまいましたが、そこのレバ刺しがおいしくて、レバ刺しが大好物になりました。 それ以来レバ刺しのある焼肉屋や居酒屋に行ったときには、必ずレバ刺しを試してみるのが習慣になっています。そんなレバ刺し好きの私にとっては、本当に残念です。 「レバ刺しより先に...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://blogos.com/article/41064/
+      entry_title: '残念な規制強化：レバ刺し（山内康一） - BLOGOS（ブロゴス）'
+    - entry_content: '<p>罰則化の導入について懸念を表明する参加者ら＝衆院議員会館 　自民党と公明党が今国会への提出を検討している音楽や動画の海賊版ファイルのダウンロードを罰則化する著作権法修正案について、「インターネットユーザー協会」が１３日、東京・永田町の衆院議員会館で反対のための勉強会を開いた。与野党議員や弁護士、一般市民ら約５０人が参加した。 　協会代表理事でジャーナリストの津田大介さんが「海賊版ダウンロードは、２...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://www.asahi.com/national/update/0613/TKY201206130570.html
+      entry_title: '朝日新聞デジタル：海賊版ダウンロード罰則化、反対勉強会に５０人 - 社会'
+    - entry_content: '<p>最近、周辺でWin機からMacに切り替える方が相次いでます。ちなみにAppleのシェアは、去年のデータだけど アップルの国内パソコン市場でのシェアが10％の壁を突破した。1999年12月以来、実に12年ぶりとなる。全国の有力家電量販店の販売実績を集計しているGfK Japanのデータによると、「MacBook Air」とMac用の最新OS「Lion（Mac OS X 10.7）」が発売になった直後...</p>'
+      entry_date: Thu Jun 14 14:15:29 2012
+      entry_permalink: !!perl/scalar:URI::http http://www.landerblue.co.jp/blog/?p=3425
+      entry_title: 'Macユーザーがなんだかじわじわと増殖している件について | More Access,More Fun!'
+    - entry_content: '<p>世界一簡単な投資の秘訣「ルボーフの法則」 ■ルボーフの法則 　・時間に「アクティブ」に、お金は「パッシブ」に投資する ■時間をアクティブに 　・自分の時間をどのように使うか自己責任で決定していく 　・学ぶ、稼ぐ、生活する、与えるの4つの時間をどう振り分けるが自分で決める ■お金はパッシブに 　・投資をどのように振り分けるかを決める(国内株式○%,海外株式○%,債券○%など) 　・決定したアセット・...</p>'
+      entry_date: Thu Jun 14 14:15:30 2012
+      entry_permalink: !!perl/scalar:URI::http http://bukupe.com/summary/5056
+      entry_title: 一生お金に困らない人のシンプルな法則―究極のミリオネア入門(マイケル・ルボーフ)のまとめ 〜 本の要点まとめサイト【ブクペ】 〜
+    - entry_content: '<p>今回の欧州危機から得られる教訓は、中央銀行を保持することの決定的な重要性である。加えて、マネーを外国に頼らないことであろう。日本の場合、日銀を持っているわけだし、経常収支は黒字であって、世界最大の債権国でもあるのだから、ギリシャやスペインのようなことが起こるかと言えば、それはない。　 日本では、何かというと、「債務残高のGDP比が先進国で最悪」ということが念仏のように唱えられるが、それでは、ドイツ...</p>'
+      entry_date: Thu Jun 14 14:15:30 2012
+      entry_permalink: !!perl/scalar:URI::http http://blog.goo.ne.jp/keisai-dousureba/e/9c41879e0fe35ca571d84a191ec1cbd7
+      entry_title: 'サルから見た消費税(3) - 経済を良くするって、どうすれば'
+    - entry_content: '<p>2012年06月11日放送の「伊集院光 深夜の馬鹿力」にて、アンタッチャブル・柴田英嗣が飛び入りゲストとして参加していた。そこで、柴田が干されていたワケについて語っていた。 伊集院「周りがスゴイ気を遣うんだよね。どうも『柴田と伊集院はどうもダメらしい』みたいなのを思って、月曜日のLINDAに俺を呼ばないじゃん」 柴田「なんでですか？」 伊集院「だから、周りが色々あったことを、『伊集院はもの凄い怒っ...</p>'
+      entry_date: Thu Jun 14 14:15:30 2012
+      entry_permalink: !!perl/scalar:URI::http http://numbers2007.blog123.fc2.com/blog-entry-1932.html
+      entry_title: 伊集院光が語る「アンタッチャブル・柴田が干されてたワケ」 ｜ 世界は数字で出来ている
+    - entry_content: '<p>前回、有権者は、かなり自己中心的な理由で投票するか棄権するかを判断していることを指摘した。今回は、投票所に足を運んだ有権者が、どのようにして投票先（特に、候補者）を決めているかを論じたい。データを使った研究結果が示すことは、かなり「ヤバい」かもしれないからである。 「まっとうではない」有権者の姿が明らかに さて、「投票先（政党あるいは候補者）を決める上で、最も重視した点は何ですか」という問いに、多...</p>'
+      entry_date: Thu Jun 14 14:15:30 2012
+      entry_permalink: !!perl/scalar:URI::http http://business.nikkeibp.co.jp/article/report/20120509/231827/
+      entry_title: 笑う門には「票」来たる：日経ビジネスオンライン
+  next_page: !!perl/scalar:URI::http http://gunosy.com/toshi0104/2012/06/13
+  site_title: Gunosy（グノシー）
+  url: http://gunosy.com/toshi0104

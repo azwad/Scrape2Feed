@@ -1,0 +1,8 @@
+Scraping Web Site without feed.
+
+usage:
+
+make setting yaml file like 'site_settings.yaml'
+and put it in ~/.pit directory.
+
+

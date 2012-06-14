@@ -1,0 +1,8 @@
+check scraper's xpath for https site.
+
+ex)
+
+>./MakeParseData_for_Https 'https://m.twitter.com/toshi0104'
+> scrape parse.txt
+ 
+

@@ -1,0 +1,28 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use utf8;
+use Scrape2Feed;
+use feature qw (say );
+use lib qw (/home/toshi/perl/lib );
+use HashDump;
+
+my $contents = Scrape2Feed->new('site_name' => 'gunosy.com');
+$contents->_load_setting();
+my $config = $contents->config;
+
+HashDump->load($config);
+
+my $contents2 = Scrape2Feed->new('site_name' => 'twitter.com');
+
+my $url = 'https://mobile.twitter.com/search?q=test&x=24&y=11';
+$contents2->url($url);
+$contents2->_load_setting();
+my $config2 = $contents2->config;
+
+
+HashDump->load($config2);
+
+
+
+

@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.1//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="HandheldFriendly" content="True"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link href="https://si0.twimg.com/twitter-mobile/e50daa7018ae0e87978f2cb9118b25f8205f8cea/images/ic_favicon.png?1339540405" rel="icon" type="image/png" />
+    <title>Search Twitter</title>
+    <link href="https://si0.twimg.com/twitter-mobile/e50daa7018ae0e87978f2cb9118b25f8205f8cea/assets/as.css?1339540410" media="screen, handheld" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+//<![CDATA[
+if (window.top !== window.self) {document.write = "";window.top.location = window.self.location; setTimeout(function(){document.body.innerHTML='';},1);window.self.onload=function(evt){document.body.innerHTML='';};}
+
+//]]>
+</script>
+  </head>
+  <body class="images nojs searches-page searches-show-page">
+    <div id="container">
+<div id="brand_bar">
+  <table id="top">
+    <tr>
+      <td class="left">
+        <a href="https://mobile.twitter.com/" class="brandmark">
+          <span class="imgsprite_larry_28px_gif" height="28" title="Twitter"></span>
+          
+        </a>
+      </td>
+      <td class="right">
+        <img alt="|" class="divider" height="28" src="https://si0.twimg.com/twitter-mobile/e50daa7018ae0e87978f2cb9118b25f8205f8cea/images/brandbar_divider.gif?1339540405" />
+        <a class="search" href="#search">
+          <span class="imgsprite_search_28px_gif" height="28" title="Search"></span>
+          
+        </a>
+        <img alt="|" class="divider" height="28" src="https://si0.twimg.com/twitter-mobile/e50daa7018ae0e87978f2cb9118b25f8205f8cea/images/brandbar_divider.gif?1339540405" />
+        <a class="refresh" href="/search?q=%E7%B3%B8%E9%AD%9A%E5%B7%9D" class="refresh">
+          <span class="imgsprite_refresh_28px_gif" height="28" title="Refresh"></span>
+          
+        </a>
+          <img alt="|" class="divider" height="28" src="https://si0.twimg.com/twitter-mobile/e50daa7018ae0e87978f2cb9118b25f8205f8cea/images/brandbar_divider.gif?1339540405" />
+          <a class="signin" href="/session/new"><span>Sign in</span></a>
+          <img alt="|" class="divider" height="28" src="https://si0.twimg.com/twitter-mobile/e50daa7018ae0e87978f2cb9118b25f8205f8cea/images/brandbar_divider.gif?1339540405" />
+          <a href="/signup"><span class="signup">Sign up</span></a>
+      </td>
+    </tr>
+  </table>
+</div>
+      <div id="main_content">
+        <div class="searches">
+  <div class="fields"><div class="search-fields">
+    <div class="title">Enter a topic, @name, or fullname</div>
+  <form action="/search" class="search-input" method="get">
+    <table>
+      <tr>
+        <td class="value" id="search"><div><input id="q" name="q" type="text" value="糸魚川"/></div></td>
+        <td class="button"><input type="image" src="https://si0.twimg.com/twitter-mobile/e50daa7018ae0e87978f2cb9118b25f8205f8cea/images/sprites/magnifying_glass.gif?1339540405" alt="Search"/></td>
+      </tr>
+    </table>
+  </form>
+</div>
+</div>
+    <table class="search-toggle">
+      <tr>
+        <td><span class="current">Tweets</span> &middot; <a href="/search/users?q=%E7%B3%B8%E9%AD%9A%E5%B7%9D">People</a></td>
+        <td class="r"><a href="/search?q=%E7%B3%B8%E9%AD%9A%E5%B7%9D&recent=1">Refresh tweets</a></td>
+      </tr>
+    </table>
+    <div class="timeline">
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/TrainAccident"><img alt="鉄道事故関連ニュース" src="https://si0.twimg.com/profile_images/423470011/200909191115__stopstop_normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/TrainAccident">
+            <strong class="fullname">鉄道事故関連ニュース</strong>
+            <span class="username">
+              <span>@</span>TrainAccident
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_211336870251073537" href="/TrainAccident/status/211336870251073537">4d</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text">米田・糸魚川市長: <a href="/search?q=%23大糸線" class="twitter-hashtag">#大糸線</a> キハ52型気動車、イベント列車で復活を 知名度アップで構想 /新潟 - 毎日新聞 <a rel="nofollow" href="http://t.co/do6po7OR" target="_blank" class="twitter_external_link">bit.ly/LG90iN</a> 糸魚川市の米田徹市長は8日、鉄道ファンに惜しまれながら10年3月にJR <a href="/search?q=%23大糸線" class="twitter-hashtag">#大糸線</a> の定期運行から引退した「キハ52型気動車」を</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/TrainAccident/status/211336870251073537">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/TrainAccident/reply/211336870251073537" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/211336870251073537/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/211336870251073537/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/yoi_no_akari"><img alt="宵の灯@池袋" src="https://si0.twimg.com/profile_images/834854992/_______normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/yoi_no_akari">
+            <strong class="fullname">宵の灯@池袋</strong>
+            <span class="username">
+              <span>@</span>yoi_no_akari
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212899884683108352" href="/yoi_no_akari/status/212899884683108352">25m</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text"><a href="/search?q=%23ikebukuro" class="twitter-hashtag">#ikebukuro</a> <a href="/search?q=%23izakaya" class="twitter-hashtag">#izakaya</a> 【池袋 居酒屋 個室】宵の灯です！当店自慢は新潟県は糸魚川漁港から毎朝直送の日替わり鮮魚たち！おすすめメニューにてご案内致しております！！ <a rel="nofollow" href="http://t.co/AmY4T3Hm" target="_blank" class="twitter_external_link">bit.ly/e2lMh3</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/yoi_no_akari/status/212899884683108352">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/yoi_no_akari/reply/212899884683108352" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212899884683108352/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212899884683108352/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/yoi_no_iori"><img alt="宵の庵＠池袋" src="https://si0.twimg.com/profile_images/772106717/____normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/yoi_no_iori">
+            <strong class="fullname">宵の庵＠池袋</strong>
+            <span class="username">
+              <span>@</span>yoi_no_iori
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212899878299373568" href="/yoi_no_iori/status/212899878299373568">25m</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text"><a href="/search?q=%23ikebukuro" class="twitter-hashtag">#ikebukuro</a> <a href="/search?q=%23izakaya" class="twitter-hashtag">#izakaya</a> 【池袋 居酒屋 個室】宵の庵です！当店自慢は新潟県・糸魚川漁港から毎朝直送の日替わり鮮魚たち！おすすめメニューにてご案内致しております！ <a rel="nofollow" href="http://t.co/kPTl9loO" target="_blank" class="twitter_external_link">bit.ly/dGQkJP</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/yoi_no_iori/status/212899878299373568">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/yoi_no_iori/reply/212899878299373568" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212899878299373568/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212899878299373568/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/shibuya_nanairo"><img alt="菜彩＠渋谷" src="https://si0.twimg.com/profile_images/759653773/b450100pm7_1_normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/shibuya_nanairo">
+            <strong class="fullname">菜彩＠渋谷</strong>
+            <span class="username">
+              <span>@</span>shibuya_nanairo
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212899867121561600" href="/shibuya_nanairo/status/212899867121561600">25m</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text"><a href="/search?q=%23shibuya" class="twitter-hashtag">#shibuya</a> <a href="/search?q=%23izakaya" class="twitter-hashtag">#izakaya</a> 【渋谷 居酒屋 個室】菜彩です！当店自慢は新潟県は糸魚川漁港から毎朝直送の日替わり鮮魚たち！おすすめメニューにてご案内致しております！！ <a rel="nofollow" href="http://t.co/YhSyN7h3" target="_blank" class="twitter_external_link">bit.ly/bpa6ej</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/shibuya_nanairo/status/212899867121561600">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/shibuya_nanairo/reply/212899867121561600" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212899867121561600/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212899867121561600/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/shibuya_nanairo"><img alt="菜彩＠渋谷" src="https://si0.twimg.com/profile_images/759653773/b450100pm7_1_normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/shibuya_nanairo">
+            <strong class="fullname">菜彩＠渋谷</strong>
+            <span class="username">
+              <span>@</span>shibuya_nanairo
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212879677306572802" href="/shibuya_nanairo/status/212879677306572802">2h</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text"><a href="/search?q=%23shibuya" class="twitter-hashtag">#shibuya</a> <a href="/search?q=%23izakaya" class="twitter-hashtag">#izakaya</a> 【渋谷 居酒屋 個室】菜彩です。当店自慢は新潟県は糸魚川漁港から毎朝直送の日替わり鮮魚たち！おすすめメニューにて、ご案内致しております！ <a rel="nofollow" href="http://t.co/YhSyN7h3" target="_blank" class="twitter_external_link">bit.ly/bpa6ej</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/shibuya_nanairo/status/212879677306572802">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/shibuya_nanairo/reply/212879677306572802" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212879677306572802/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212879677306572802/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/shizuku_38"><img alt="滴～しずく～ ＠新宿" src="https://si0.twimg.com/profile_images/1254603643/__normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/shizuku_38">
+            <strong class="fullname">滴～しずく～ ＠新宿</strong>
+            <span class="username">
+              <span>@</span>shizuku_38
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212877351221080064" href="/shizuku_38/status/212877351221080064">2h</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text"><a href="/search?q=%23shinjuku" class="twitter-hashtag">#shinjuku</a> <a href="/search?q=%23izakaya" class="twitter-hashtag">#izakaya</a> 【新宿 居酒屋 個室】滴です。当店自慢は新潟県は糸魚川漁港から毎朝直送の日替わり鮮魚たち！おすすめメニューにてご案内致しております！ <a rel="nofollow" href="http://t.co/0pA4wT5z" target="_blank" class="twitter_external_link">bit.ly/gnDilb</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/shizuku_38/status/212877351221080064">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/shizuku_38/reply/212877351221080064" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212877351221080064/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212877351221080064/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/niigatapr"><img alt="新潟県を勝手にＰＲ" src="https://si0.twimg.com/profile_images/1741320164/_____normal.JPG" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/niigatapr">
+            <strong class="fullname">新潟県を勝手にＰＲ</strong>
+            <span class="username">
+              <span>@</span>niigatapr
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212873906556633088" href="/niigatapr/status/212873906556633088">2h</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text">【新潟県糸魚川市】 大浴場のあるビジネスホテル・シティホテル　<a rel="nofollow" href="http://t.co/Zvifu9yt" target="_blank" class="twitter_external_link">yutosoken-pr.com/?eid=648</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/niigatapr/status/212873906556633088">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/niigatapr/reply/212873906556633088" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212873906556633088/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212873906556633088/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/bukuro_hiyori"><img alt="池袋 ひより" src="https://si0.twimg.com/profile_images/1997369133/________ol_normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/bukuro_hiyori">
+            <strong class="fullname">池袋 ひより</strong>
+            <span class="username">
+              <span>@</span>bukuro_hiyori
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212865793019490307" href="/bukuro_hiyori/status/212865793019490307">3h</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text"><a href="/search?q=%23ikebukuro" class="twitter-hashtag">#ikebukuro</a> <a href="/search?q=%23izakaya" class="twitter-hashtag">#izakaya</a> 【池袋 居酒屋 個室】ひよりです。当店は新潟県は糸魚川漁港より日本海の新鮮なお魚を毎朝直送にて仕入れています！ <a rel="nofollow" href="http://t.co/YUdV3EJ4" target="_blank" class="twitter_external_link">bit.ly/HMNzge</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/bukuro_hiyori/status/212865793019490307">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/bukuro_hiyori/reply/212865793019490307" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212865793019490307/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212865793019490307/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/yoi_no_iori"><img alt="宵の庵＠池袋" src="https://si0.twimg.com/profile_images/772106717/____normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/yoi_no_iori">
+            <strong class="fullname">宵の庵＠池袋</strong>
+            <span class="username">
+              <span>@</span>yoi_no_iori
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212864611165286400" href="/yoi_no_iori/status/212864611165286400">3h</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text"><a href="/search?q=%23ikebukuro" class="twitter-hashtag">#ikebukuro</a> <a href="/search?q=%23izakaya" class="twitter-hashtag">#izakaya</a> 【池袋 居酒屋 個室】宵の庵です！当店自慢は新潟県は糸魚川漁港から毎朝直送の日替わり鮮魚たち！おすすめメニューにてご案内致しております♪ <a rel="nofollow" href="http://t.co/6Lkhipth" target="_blank" class="twitter_external_link">bit.ly/9yzezn</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/yoi_no_iori/status/212864611165286400">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/yoi_no_iori/reply/212864611165286400" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212864611165286400/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212864611165286400/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/shizuku_38"><img alt="滴～しずく～ ＠新宿" src="https://si0.twimg.com/profile_images/1254603643/__normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/shizuku_38">
+            <strong class="fullname">滴～しずく～ ＠新宿</strong>
+            <span class="username">
+              <span>@</span>shizuku_38
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212860784798212097" href="/shizuku_38/status/212860784798212097">3h</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text"><a href="/search?q=%23shinjuku" class="twitter-hashtag">#shinjuku</a> <a href="/search?q=%23izakaya" class="twitter-hashtag">#izakaya</a> 【新宿 居酒屋 個室】滴です。当店自慢は新潟県は糸魚川漁港から毎朝直送の日替わり鮮魚たち！おすすめメニューにてご案内致しております！ <a rel="nofollow" href="http://t.co/8OGUKxT4" target="_blank" class="twitter_external_link">bit.ly/hkOkca</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/shizuku_38/status/212860784798212097">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/shizuku_38/reply/212860784798212097" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212860784798212097/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212860784798212097/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/shinjuku_shiori"><img alt="新宿栞" src="https://si0.twimg.com/profile_images/759774228/__normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/shinjuku_shiori">
+            <strong class="fullname">新宿栞</strong>
+            <span class="username">
+              <span>@</span>shinjuku_shiori
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212860760852926464" href="/shinjuku_shiori/status/212860760852926464">3h</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text">新宿・栞です!!当店は新潟県は糸魚川漁港より日本海の味を毎日直送しています。新鮮な鮮魚たちを是非ご賞味ください♪ <a rel="nofollow" href="http://t.co/HpEsuwgF" target="_blank" class="twitter_external_link">bit.ly/9PemEi</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/shinjuku_shiori/status/212860760852926464">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/shinjuku_shiori/reply/212860760852926464" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212860760852926464/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212860760852926464/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/mitsuroh_g"><img alt="蜜蝋（みつろう）" src="https://si0.twimg.com/profile_images/2215087528/mitsuroh6_1_normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/mitsuroh_g">
+            <strong class="fullname">蜜蝋（みつろう）</strong>
+            <span class="username">
+              <span>@</span>mitsuroh_g
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212860579084386304" href="/mitsuroh_g/status/212860579084386304">3h</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text">超美味そうなんですけど・・・ RT <a href="/HAL_1001" class="twitter-atreply">@HAL_1001</a>: ご当地B級グルメ！！糸魚川ブラック焼そば(^-^)/＠居酒屋我が家。 この前のBBQの余りだけどね(^-^; <a rel="nofollow" href="http://t.co/eOYqZXuH" target="_blank" class="twitter_external_link">instagr.am/p/Lz6lY3C4u6/</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/mitsuroh_g/status/212860579084386304">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/mitsuroh_g/reply/212860579084386304" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212860579084386304/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212860579084386304/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/HAL_1001"><img alt="はる＠イチデジ修行中♪" src="https://si0.twimg.com/profile_images/2271201273/icon576316669983437036020120602_normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/HAL_1001">
+            <strong class="fullname">はる＠イチデジ修行中♪</strong>
+            <span class="username">
+              <span>@</span>HAL_1001
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212858687667179520" href="/HAL_1001/status/212858687667179520">3h</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text">ご当地B級グルメ！！糸魚川ブラック焼そば(^-^)/＠居酒屋我が家。 この前のBBQの余りだけどね(^-^; <a rel="nofollow" href="http://t.co/IgiSz1y8" target="_blank" class="twitter_external_link">instagr.am/p/Lz6lY3C4u6/</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/HAL_1001/status/212858687667179520">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/HAL_1001/reply/212858687667179520" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212858687667179520/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212858687667179520/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/nabesennin"><img alt="鍋選人 渋谷本店" src="https://si0.twimg.com/profile_images/759770987/____normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/nabesennin">
+            <strong class="fullname">鍋選人 渋谷本店</strong>
+            <span class="username">
+              <span>@</span>nabesennin
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_212843143731740672" href="/nabesennin/status/212843143731740672">4h</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text"><a href="/search?q=%23shibuya" class="twitter-hashtag">#shibuya</a> 渋谷・鍋選人です。当店自慢はお鍋だけではありませんよ！お刺身は新潟県糸魚川漁港より毎朝直送の鮮魚にて！おすすめメニューでご提供しています♪ <a rel="nofollow" href="http://t.co/rHea54NH" target="_blank" class="twitter_external_link">p.tl/EkJy</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/nabesennin/status/212843143731740672">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/nabesennin/reply/212843143731740672" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/212843143731740672/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/212843143731740672/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/Hisana_"><img alt="伯爵 北条久奈" src="https://si0.twimg.com/profile_images/2294392950/chff5y3dip485nnnpzma_normal.jpeg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/Hisana_">
+            <strong class="fullname">伯爵 北条久奈</strong>
+            <span class="username">
+              <span>@</span>Hisana_
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_211760613423190016" href="/Hisana_/status/211760613423190016">3d</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text">【世界の賞金首】
+クリントン米国務長官…ラクダ2頭（ソマリア・イスラム過激派勢力アルシャバブ）
+オバマ大統領…ラクダ10頭（同）
+高橋克也容疑者…1000万円（警視庁）
+ツチノコ…1億円（新潟県糸魚川市の企業6社）
+ザワヒリ容疑者（アルカイダ指導者）…2500万ドル（米国務省）</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/Hisana_/status/211760613423190016">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/Hisana_/reply/211760613423190016" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/211760613423190016/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/211760613423190016/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/jf2002"><img alt="海月" src="https://si0.twimg.com/profile_images/1215526956/kaigetu_normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/jf2002">
+            <strong class="fullname">海月</strong>
+            <span class="username">
+              <span>@</span>jf2002
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_211692319974502402" href="/jf2002/status/211692319974502402">3d</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text">糸魚川翡翠鉱物展　2012年11月10日（土）～11日（日）新潟　ヒスイ王国館　<a rel="nofollow" href="http://t.co/GVUenSGx" target="_blank" class="twitter_external_link">bit.ly/nv2Sbi</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/jf2002/status/211692319974502402">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/jf2002/reply/211692319974502402" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/211692319974502402/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/211692319974502402/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/ironnews26"><img alt="鉄ニュース" src="https://si0.twimg.com/profile_images/788302163/icon_normal.png" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/ironnews26">
+            <strong class="fullname">鉄ニュース</strong>
+            <span class="username">
+              <span>@</span>ironnews26
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_211337996769832960" href="/ironnews26/status/211337996769832960">4d</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text">米田・糸魚川市長:大糸線キハ５２型気動車、イベント列車で復活を　知名度アップで構想　／新潟－ 毎日ｊｐ(毎日新聞) <a rel="nofollow" href="http://t.co/76lLJYpi" target="_blank" class="twitter_external_link">bit.ly/KFuG5c</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/ironnews26/status/211337996769832960">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/ironnews26/reply/211337996769832960" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/211337996769832960/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/211337996769832960/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/TrainAccident"><img alt="鉄道事故関連ニュース" src="https://si0.twimg.com/profile_images/423470011/200909191115__stopstop_normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/TrainAccident">
+            <strong class="fullname">鉄道事故関連ニュース</strong>
+            <span class="username">
+              <span>@</span>TrainAccident
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_211336870251073537" href="/TrainAccident/status/211336870251073537">4d</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text">米田・糸魚川市長: <a href="/search?q=%23大糸線" class="twitter-hashtag">#大糸線</a> キハ52型気動車、イベント列車で復活を 知名度アップで構想 /新潟 - 毎日新聞 <a rel="nofollow" href="http://t.co/do6po7OR" target="_blank" class="twitter_external_link">bit.ly/LG90iN</a> 糸魚川市の米田徹市長は8日、鉄道ファンに惜しまれながら10年3月にJR <a href="/search?q=%23大糸線" class="twitter-hashtag">#大糸線</a> の定期運行から引退した「キハ52型気動車」を</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/TrainAccident/status/211336870251073537">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/TrainAccident/reply/211336870251073537" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/211336870251073537/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/211336870251073537/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/simon_isogai"><img alt="磯貝サイモン" src="https://si0.twimg.com/profile_images/1606404855/___normal.JPG" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/simon_isogai">
+            <strong class="fullname">磯貝サイモン</strong>
+            <span class="username">
+              <span>@</span>simon_isogai
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_210998257046917120" href="/simon_isogai/status/210998257046917120">5d</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text">父親の田舎が糸魚川なので、新潟にはもう何十回と来てますが、意外と新潟市内は2度目です。ちなみに糸魚川の磯貝家に行くと、近所は磯貝だらけです(笑)。</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/simon_isogai/status/210998257046917120">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/simon_isogai/reply/210998257046917120" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/210998257046917120/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/210998257046917120/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <table class="tweet">
+    <tr class="tweet-header">
+        <td class="avatar" rowspan="3"><a href="https://mobile.twitter.com/tokaiama"><img alt="このメディアは取扱いに注意を要すると" src="https://si0.twimg.com/profile_images/1519494836/papa_normal.jpg" /></a></td>
+        <td class="user-info">
+          <a href="https://mobile.twitter.com/tokaiama">
+            <strong class="fullname">このメディアは取扱いに注意を要すると</strong>
+            <span class="username">
+              <span>@</span>tokaiama
+            </span>
+          </a>
+        </td>
+      <td class="timestamp">
+        <a name="tweet_210500061220700160" href="/tokaiama/status/210500061220700160">06 Jun</a>
+      </td>
+    </tr>
+    <tr class="tweet-container" >
+      <td colspan="2" class="tweet-content">
+        <div class="tweet-text">我々の世代はフォッサマグナを糸魚川・富士川構造線と教えられたが、現在はそれに利根川・信濃川構造線を加えた広いテーブルとされる。３１１以降、北米プレートにのった東日本がフォッサマグナを起点として右旋回し、ユーラシアPの西日本が左向きに　<a rel="nofollow" href="http://t.co/Lh6E9F92" target="_blank" class="twitter_external_link">mekira.gsi.go.jp/project/f3/ja/…</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="meta-and-actions">
+        <span class="metadata">
+          <a href="/tokaiama/status/210500061220700160">View details</a>
+          <span class="middot">&middot;</span>
+        </span>
+        <span class="tweet-actions">
+          <a href="/tokaiama/reply/210500061220700160" class="first"><span class="imgsprite_tweet_reply_gif" title="Reply"></span></a>
+            <a href="/statuses/210500061220700160/retweet">
+                <span class="imgsprite_tweet_rt_gif" title="Retweet"></span>
+            </a>
+          <a href="/statuses/210500061220700160/favorite" class="last">
+              <span class="imgsprite_tweet_fav_gif" title="Favorite"></span>
+          </a>
+        </span>
+      </td>
+    </tr>
+  </table>
+      <div class="w-button-more"><a href="/search?max_id=210500061220700160&q=%E7%B3%B8%E9%AD%9A%E5%B7%9D">Load older Tweets</a></div>
+    </div>
+</div>
+
+      </div>
+<div id="footer">
+    <form action="/session/destroy" method="post">
+      <div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="b8d150171e52d9449429" /></div>
+      <table class="global-actions">
+        <tr>
+          <td><a href="/settings">Settings</a></td>
+          <td><a href="http://support.twitter.com/"> Help</a></td>
+          <td><span class="w-button-common w-button"><input name="commit" type="submit" value="Sign out" /></span></td>
+        </tr>
+      </table>
+    </form>
+    <div class="view-actions"><a href="#top">Back to top</a> &middot; <a href="/settings/profile_images?return_to=%2Fsearch%3Fq%3D%25E7%25B3%25B8%25E9%25AD%259A%25E5%25B7%259D">Turn images off</a></div>
+  <div class="copyright">&copy; 2012 Twitter</div>
+</div>
+    </div>
+  </body>
+</html>

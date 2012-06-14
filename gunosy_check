@@ -1,0 +1,28 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use utf8;
+use Scrape2Feed;
+use feature qw (say );
+use lib qw (/home/toshi/perl/lib );
+use HashDump;
+use YAML;
+
+my $gunosy = Scrape2Feed->new('site_name' => 'gunosy.com');
+
+#my $list = $gunosy->get_list();
+
+#HashDump->load($list);
+
+
+my $contents = $gunosy->get_contents();
+#my $config = $gunosy->config();
+
+#HashDump->load($config);
+HashDump->load($contents);
+
+
+
+
+
+

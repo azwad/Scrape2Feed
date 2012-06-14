@@ -1,0 +1,44 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use utf8;
+use Scrape2Feed;
+use feature qw (say );
+use lib qw (/home/toshi/perl/lib );
+use HashDump;
+use URI::Escape;
+use YAML; 
+use Encode 'encode_utf8'; 
+
+
+my $query = 'github';
+
+
+my $contents = Scrape2Feed->new('site_name' => 'twitter.com');
+
+
+my $enc_query = uri_escape_utf8( $query);
+
+my $url = 'https://mobile.twitter.com/search?q=' . $enc_query .'&x=24&y=11';
+
+say 'query = ' . $query;
+say 'search url =' . $url;
+
+$contents->url($url);
+
+my $res = $contents->get_contents(1,3);
+
+my $output_file_name = $query . '.result';
+
+open my $fh, '>', $output_file_name;
+
+print $fh encode_utf8(Dump($res));
+
+
+
+
+
+
+
+
+
