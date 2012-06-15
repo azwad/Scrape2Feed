@@ -10,6 +10,7 @@ use Carp 'croak';
 use Web::Scraper;
 use WWW::Mechanize;
 use XML::RSS;
+use HTML::Entities;
 #use Encode;
 use Moose;
 
@@ -54,8 +55,34 @@ has 'setting_file' => (
 	default => 'site_settings',
 );
 
+has 'rss_opt' => (
+	is => 'HashRef',
+	is => 'rw',
+	default	=>sub {{'ver'						 =>'1.0',
+							 'encode_output'	 => '1',
+							 'decode_entities' => '1',
+							}},
+);
+
 __PACKAGE__->meta->make_immutable;
 no Moose;
+
+sub rss_ver {
+	my $self = shift;
+	$self->rss_opt->{ver} = shift;
+	return $self;
+}
+
+sub rss_out {
+	my $self = shift;
+	$self->rss_opt->{encode_output} = shift;
+	return $self;
+}
+sub rss_ent {
+	my $self = shift;
+	$self->rss_opt->{entities} = shift;
+	return $self;
+}
 
 sub _load_setting {
 	my $self = shift;
@@ -274,8 +301,8 @@ sub get_rss {
 	}
 
 	my $rss = XML::RSS->new(
-			version => 0.91,
-			enocode_output => 0,
+			version => $self->rss_opt->{ver},
+			enocode_output => $self->rss_opt->{encode_output},
 	);
 
 	my ($title, $link, $description);
@@ -318,7 +345,11 @@ sub get_rss {
 		}
 	}
 
-	return $rss;
+	if ($self->rss_opt->{decode_entities}){
+		return	decode_entities($rss->as_string);
+	}else{
+		return $rss;
+	}
 }
 
 

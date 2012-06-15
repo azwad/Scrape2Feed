@@ -1,0 +1,47 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use utf8;
+use Scrape2Feed;
+use feature qw (say );
+use lib qw (/home/toshi/perl/lib );
+use HashDump;
+use URI::Escape;
+use YAML; 
+use Encode 'encode_utf8'; 
+use HTML::Entities;
+
+my $setting = 'gunosy.com';
+
+my $contents = Scrape2Feed->new('site_name' => $setting);
+
+say $contents->rss_opt->{ver};
+say $contents->rss_opt->{encode_output};
+say $contents->rss_opt->{decode_entities};
+my $ver = '2.0';
+
+$contents->rss_opt( {'ver' => $ver, 'encode_output' => '0', 'decode_entities' => '1',} );
+
+
+say $contents->rss_opt->{ver};
+say $contents->rss_opt->{encode_output};
+say $contents->rss_opt->{decode_entities};
+
+my $rss = $contents->get_rss(1,2);
+
+my $output_file_name = $setting . '-' .  $ver . '.rss';
+
+open my $fh, '>', $output_file_name;
+
+# $rss_string =  decode_entities($rss->as_string);
+
+print $fh $rss;
+
+
+
+
+
+
+
+
+
