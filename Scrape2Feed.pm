@@ -1,15 +1,16 @@
-#!/usr/bin/perl
-
 package Scrape2Feed;
 use utf8;
 use URI;
 use Config::Pit;
 use feature qw ( say );
 use lib qw ( /home/toshi/perl/lib );
+use DateTimeEasy qw ( datestr );
 use HashDump;
 use Carp 'croak';
 use Web::Scraper;
 use WWW::Mechanize;
+use XML::RSS;
+#use Encode;
 use Moose;
 
 has 'site_name' => (
@@ -55,8 +56,6 @@ has 'setting_file' => (
 
 __PACKAGE__->meta->make_immutable;
 no Moose;
-#use Web::Scraper;
-#use WWW::Mechanize;
 
 sub _load_setting {
 	my $self = shift;
@@ -113,6 +112,7 @@ sub get_list {
 sub get_contents {
 	my $self = shift;
 	my @args = @_;
+
 	$self->_load_setting;
 	my $contents;
 	my $type = $self->{config}->{type};
@@ -126,6 +126,7 @@ sub get_contents {
 	}else{
 		croak 'set an index type in the setting file';
 	}
+	$self->{contents} = $contents;
 	return $contents;
 } 
  
@@ -152,7 +153,6 @@ sub _get_contents_flat {
 		$entry_date = '//a';
 	}		 
 
-	say $entry_date;
 
  	$first_page_no = 1 unless defined $first_page_no;
 	$last_page_no = $first_page_no unless defined $last_page_no;
@@ -180,9 +180,9 @@ sub _get_contents_flat {
 					process $entry_content,		'entry_content'		=> 'HTML';
 					process $entry_date,			'entry_date'	=> sub {
 							if ($flag_defined_entry_date){
-								return $_;
+								return datestr($_,'W3CDTF');
 							}else{
-								return localtime;
+								return datestr('now','W3CDTF');
 							};						
 						};
 					};
@@ -192,7 +192,6 @@ sub _get_contents_flat {
     }
 		$current_page_url = $next_page_url->{next_page};
 	}
-
 	return $contents;
 }
 
@@ -262,6 +261,64 @@ sub _get_contents_subindex {
 	my $contents =[];
 	
 	return  'これからつくる';
+}
+
+sub get_rss {
+	my $self = shift;
+	my @args = @_;
+	my $contents;
+	if (defined($self->{contents})){
+		$contents = $self->{contents};
+	}else{
+		$contents	 = $self->get_contents(@args);
+	}
+
+	my $rss = XML::RSS->new(
+			version => 0.91,
+			enocode_output => 0,
+	);
+
+	my ($title, $link, $description);
+	foreach my $value (@$contents){
+		if (defined($value->{site_title})){
+			$title = $value->{site_title};
+			$link = $value->{url};
+			$description = '';
+			last;
+		}else{
+			next;
+		}
+	}
+	
+	$rss->channel(
+		title => $title,
+		link => $link,
+		description => $description,
+		dc => {
+			date => datestr('now','W3CDTF'),
+			subject => '',
+			creator => 'Scrape2Feed.pm',
+			publisher => 'toshi0104@gmail.com',
+			rights => '',
+		} ,
+	);
+
+	foreach my $value (@$contents){
+		foreach my $value2 (@{$value->{container}}){
+			$rss->add_item(
+				title => $value2->{entry_title},
+				link => $value2->{entry_permalink},
+				description => $value2->{entry_content},
+				dc => {
+					date => $value2->{entry_date},
+					subject => '',
+					creator => 'Scrape2Feed.pm',
+				},
+			);
+		}
+	}
+
+	return $rss;
 }
 
 
