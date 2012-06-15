@@ -56,7 +56,7 @@ has 'setting_file' => (
 );
 
 has 'rss_opt' => (
-	is => 'HashRef',
+	isa => 'HashRef',
 	is => 'rw',
 	default	=>sub {{'ver'						 =>'1.0',
 							 'encode_output'	 => '1',

@@ -23,7 +23,7 @@ open my $fh, '>', $file or die ;
 
 #print $fh decode_entities($rss->as_string);
 
-print $fh $rss->as_string;
+print $fh $rss;
 
 #HashDump->load($rss);
 

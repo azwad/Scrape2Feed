@@ -23,6 +23,10 @@ my $config2 = $contents2->config;
 
 HashDump->load($config2);
 
+my $opt = $contents->rss_opt;
+
+HashDump->load($opt);
+
 
 
 

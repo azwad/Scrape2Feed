@@ -11,7 +11,7 @@ use YAML;
 use Encode 'encode_utf8'; 
 
 
-my $query = 'obama';
+my $query = 'ソウルサーファー';
 
 
 my $contents = Scrape2Feed->new('site_name' => 'twitter.com');
