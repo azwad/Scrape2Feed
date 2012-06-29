@@ -102,8 +102,8 @@ sub get_list {
 #	my $site_title = $self->{config}->{site_title};
 	my $site_url = $self->{config}->{site_url};
 	my $next_page = $self->{config}->{next_page};
-	my $container =  $self->{config}->{container};
-	my $entry_title = $self->{config}->{entry_title};
+	my $container =  $self->{config}->{container} || $self->{config}->{index};
+	my $entry_title = $self->{config}->{entry_title}|| $self->{config}->{index_entry_title};
 	
 	my $start_page_url;
 
@@ -207,7 +207,8 @@ sub _get_contents_flat {
 					process $entry_content,		'entry_content'		=> 'HTML';
 					process $entry_date,			'entry_date'	=> sub {
 							if ($flag_defined_entry_date){
-								return datestr($_,'W3CDTF');
+								my $timestr = $_->as_text;
+								return datestr($timestr,'W3CDTF');
 							}else{
 								return datestr('now','W3CDTF');
 							};						
@@ -228,9 +229,9 @@ sub _get_contents_index {
 	my $site_title = $self->{config}->{site_title};
 	my $site_url = $self->{config}->{site_url};
 	my $next_page = $self->{config}->{next_page};
-	my $container =  $self->{config}->{container};
-	my $entry_title = $self->{config}->{entry_title};
-	my $entry_permalink = $self->{config}->{entry_permalink};
+	my $index =  $self->{config}->{index};
+	my $index_entry_title = $self->{config}->{index_entry_title};
+	my $index_entry_permalink = $self->{config}->{index_entry_permalink};
 	my $entry_content = $self->{config}->{entry_content};
 	my $entry_date = $self->{config}->{entry_date};
 
@@ -253,7 +254,51 @@ sub _get_contents_index {
 	$mech->agent($self->{user_agent});
 	my $contents =[];
 	
-	return  'これからつくる';
+	for  ($current_page_no = 1; $current_page_no <= $last_page_no; ++$current_page_no){
+		my $uri = URI->new($current_page_url);
+		$mech->get($uri);
+		my $next_page_url = scraper { process $next_page, 'next_page' => '@href';}->scrape($mech->content,$uri);
+		if ($current_page_no >= $first_page_no ) {
+			my $scraper = scraper { 
+				process $site_title,			'site_title'			=> 'TEXT';
+				process $next_page,				'next_page'				=> '@href';
+				process $index,						'container[]'			=> scraper {
+					process $index_entry_title,			'entry_title'			=> 'TEXT';
+					process $index_entry_permalink,	'entry_permalink'	=> '@href';
+				};
+			};
+
+			$contents->[$current_page_no]  = $scraper->scrape($mech->content,$uri);
+
+			my $scraper2 = scraper {
+				process $entry_content, 'entry_content' => 'HTML';
+				process $entry_date,			'entry_date'	=> sub {
+							if ($flag_defined_entry_date){
+								my $timestr = $_->as_text || $_;
+								return datestr($timestr,'W3CDTF');
+							}else{
+								return datestr('now','W3CDTF');
+							}						
+				};
+			};
+			my $num = 0;
+			for my $var  (@{$contents->[$current_page_no]->{container}}){
+				my $uri = URI->new($var->{entry_permalink});
+				say $uri;
+				$mech->get($uri);
+#				sleep 30;
+				my $entry = $scraper2->scrape($mech->content,$uri);
+				$contents->[$current_page_no]->{container}->[$num]->{entry_content} = $entry->{entry_content};
+				$contents->[$current_page_no]->{container}->[$num]->{entrt_date} = $entry->{entry_date};
+				++$num;
+			}
+
+			$contents->[$current_page_no]->{url} = $current_page_url;
+    }
+		$current_page_url = $next_page_url->{next_page};
+	}
+	
+	return  $contents;
 }
 
 sub _get_contents_subindex {

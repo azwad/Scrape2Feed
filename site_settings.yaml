@@ -1,5 +1,4 @@
 --- 
-
 'gunosy.com':
   "type": 'flat'
   "site_title": '//head/title'
@@ -7,7 +6,17 @@
   "next_page": '//nav[@class="navigation"]//a'
   "container": '//div[@class="entry-content"]'
   "entry_title": '//h1'
-  "entry_data": 
+  "entry_date": 
+  "entry_permalink": '//a'
+  "entry_content": '//div[@class="entry-summary"]'
+'gunosy.com.japannewsfeeds':
+  "type": 'flat'
+  "site_title": '//head/title'
+  "site_url": 'http://gunosy.com/JapanNewsFeeds'
+  "next_page": '//nav[@class="navigation"]//a'
+  "container": '//div[@class="entry-content"]'
+  "entry_title": '//h1'
+  "entry_date": 
   "entry_permalink": '//a'
   "entry_content": '//div[@class="entry-summary"]'
 'twitter.com':
@@ -20,3 +29,14 @@
   "entry_date": 
   "entry_permalink": '//span[@class="metadata"]/a'
   "entry_content": '//div[@class="tweet-text"]'
+'shihoujournal':
+  "type": 'index'
+  "site_title": '//head/title'
+  "site_url": 'http://www.shihoujournal.co.jp/news/index.html'
+  "next_page": '//table[last()-1]/tr/td/a'
+  "index": '//table[position()<last()-1]'
+  "index_entry_title": '//dd'
+  "index_entry_permalink": '//a'
+  "entry_date": 
+  "entry_content": '//div[@class="article"]'
+
