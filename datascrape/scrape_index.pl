@@ -16,7 +16,7 @@ use HTML::Entities;
 
 my $site_title  = '//head/title';
 my $next_page = '//next';
-my $index = '//p/a[position()+1<last()-1]';
+my $index = '//p/a[position()>1 and position()<last()]';
 my $index_entry_title = '.';
 my $index_entry_permalink = '.';
 my $entry = {};
