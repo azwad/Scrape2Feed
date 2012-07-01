@@ -1,0 +1,34 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use utf8;
+use Scrape2Feed;
+use feature qw (say );
+use lib qw (/home/toshi/perl/lib );
+use HashDump;
+use URI::Escape;
+use YAML; 
+use Encode 'encode_utf8'; 
+
+my $setting = 'journal';
+
+my $contents = Scrape2Feed->new('site_name' => $setting);
+
+
+#my $res = $contents->get_contents(1,2); Back Number is private for members
+my $res = $contents->get_contents(1,1);
+
+my $output_file_name = $setting . '.result';
+
+open my $fh, '>', $output_file_name;
+
+print $fh encode_utf8(Dump($res));
+
+
+
+
+
+
+
+
+

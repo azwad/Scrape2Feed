@@ -39,4 +39,14 @@
   "index_entry_permalink": '//a'
   "entry_date": 
   "entry_content": '//div[@class="article"]'
+'journal':
+  "type": 'index'
+  "site_title": '//head/title'
+  "site_url": 'http://www.the-journal.jp/'
+  "next_page": 
+  "index": '//p/a[position()+1<last()-1]'
+  "index_entry_title": '.'
+  "index_entry_permalink": '.'
+  "entry_date": '//span[@class="post-footers"]'
+  "entry_content": '//div[@class="entry-content"]'
 

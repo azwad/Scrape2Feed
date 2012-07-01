@@ -64,6 +64,12 @@ has 'rss_opt' => (
 							}},
 );
 
+has 'page_limit' => (
+	is => 'rw',
+	isa => 'Int',
+	default => 100,
+);
+
 __PACKAGE__->meta->make_immutable;
 no Moose;
 
@@ -112,7 +118,9 @@ sub get_list {
 	if ($last_page_no < $first_page_no) {
 	 croak 'last page no. must be grater than first page no.';
 	}
-
+	unless (defined $next_page) {
+		$first_page_no = $last_page_no = 1;
+	} 
 	my $current_page_no = 1;
 	my $current_page_url  = $site_url;
 	my $page = [];
@@ -123,14 +131,14 @@ sub get_list {
 	for  ($current_page_no = 1; $current_page_no <= $last_page_no; ++$current_page_no){
 		my $uri = URI->new($current_page_url);
 		$mech->get($uri);
-		my $next_page_url = scraper { process $next_page, 'next_page' => '@href';}->scrape($mech->content,$uri);
+		my $next_page_url = scraper { process $next_page, 'next_page' => '@href';}->scrape($mech->content,$uri) if defined $next_page;
 		if ($current_page_no >= $first_page_no ) {
 			$page->[$current_page_no]  = scraper {
 				process $container.$entry_title, 'title[]' => 'TEXT';
 			}->scrape($mech->content,$uri);
 		$page->[$current_page_no]->{url} = $current_page_url;
     }
-		$current_page_url = $next_page_url->{next_page};
+		$current_page_url = $next_page_url->{next_page} if defined $next_page;
 	}
 	return $page;
 }
@@ -185,6 +193,10 @@ sub _get_contents_flat {
 	$last_page_no = $first_page_no unless defined $last_page_no;
 	if ($last_page_no < $first_page_no) {
 	 croak 'last page no. must be grater than first page no.';
+	}
+	unless (defined $next_page) {
+		$first_page_no = $last_page_no = 1;
+		$next_page = '//next';
 	}
 	my $current_page_no = 1;
 
@@ -248,6 +260,11 @@ sub _get_contents_index {
 	if ($last_page_no < $first_page_no) {
 	 croak 'last page no. must be grater than first page no.';
 	}
+	unless (defined $next_page) {
+		$first_page_no = $last_page_no = 1;
+		$next_page = '//next';
+	}
+	
 	my $current_page_no = 1;
 	my $current_page_url  = $site_url;
 	my $mech = new WWW::Mechanize( autocheck => 1 );
@@ -272,6 +289,7 @@ sub _get_contents_index {
 
 			my $scraper2 = scraper {
 				process $entry_content, 'entry_content' => 'HTML';
+				process $entry_content, 'entry_content_text' => 'TEXT';
 				process $entry_date,			'entry_date'	=> sub {
 							if ($flag_defined_entry_date){
 								my $timestr = $_->as_text || $_;
@@ -282,17 +300,33 @@ sub _get_contents_index {
 				};
 			};
 			my $num = 0;
+			my $stop = $self->{page_limit};
 			for my $var  (@{$contents->[$current_page_no]->{container}}){
+				my $entry = {};
 				my $uri = URI->new($var->{entry_permalink});
-				say $uri;
-				$mech->get($uri);
-#				sleep 30;
-				my $entry = $scraper2->scrape($mech->content,$uri);
+				eval { $mech->get($uri)};
+				if ($@){
+					say "count $num";
+					warn "can't find $uri: $@";
+					say 'status?: ' . $mech->status();
+					++$num;
+					next;
+				}else{
+#					say "count $num";
+					say 'get uri: ' . $mech->uri();
+#					say 'success? ' . $mech->success();
+				}
+				$entry = $scraper2->scrape($mech->content,$uri);
+
 				$contents->[$current_page_no]->{container}->[$num]->{entry_content} = $entry->{entry_content};
 				$contents->[$current_page_no]->{container}->[$num]->{entrt_date} = $entry->{entry_date};
+				
+
+				if ($num > $stop){
+					last;
+				}
 				++$num;
 			}
-
 			$contents->[$current_page_no]->{url} = $current_page_url;
     }
 		$current_page_url = $next_page_url->{next_page};
