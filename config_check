@@ -9,28 +9,22 @@ use HashDump;
 
 my $contents = Scrape2Feed->new('site_name' => 'gunosy.com');
 $contents->_load_setting();
-my $config = $contents->config;
 
+my $config = $contents->config;
 HashDump->load($config);
 
 my $contents2 = Scrape2Feed->new('site_name' => 'twitter.com');
-
 my $url = 'https://mobile.twitter.com/search?q=test&x=24&y=11';
+
 $contents2->url($url);
 $contents2->_load_setting();
 my $config2 = $contents2->config;
-
-
 HashDump->load($config2);
 
 my $opt = $contents->rss_opt;
-
 HashDump->load($opt);
 
 my $contents3= Scrape2Feed->new('site_name' => 'shihoujournal');
-
-#my $url = 'https://mobile.twitter.com/search?q=test&x=24&y=11';
-#$contents2->url($url);
 
 $contents3->_load_setting();
 my $config3 = $contents3->config;

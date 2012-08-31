@@ -64,6 +64,12 @@ has 'rss_opt' => (
 							}},
 );
 
+has 'login' => (
+	isa => 'HashRef',
+	is => 'rw',
+	default => sub{ {} },
+);
+
 has 'page_limit' => (
 	is => 'rw',
 	isa => 'Int',
@@ -128,6 +134,9 @@ sub get_list {
 	my $mech = new WWW::Mechanize( autocheck => 1 );
 	$mech->agent($self->{user_agent});
 
+	my $need_login = $self->login->{login_url} || undef;
+	_need_login($self,$mech) if (defined $need_login );
+			
 	for  ($current_page_no = 1; $current_page_no <= $last_page_no; ++$current_page_no){
 		my $uri = URI->new($current_page_url);
 		$mech->get($uri);
@@ -141,6 +150,18 @@ sub get_list {
 		$current_page_url = $next_page_url->{next_page} if defined $next_page;
 	}
 	return $page;
+}
+
+sub _need_login {
+	my ($self, $mech) = @_;
+	say 'checking login';
+		my $login_url = $self->login->{login_url};
+		my $login_opt = $self->login->{fields};
+		$mech->get($login_url);
+		$mech->submit_form(
+			'fields' => $login_opt,
+		);
+	return $mech;
 }
 
 
@@ -204,6 +225,8 @@ sub _get_contents_flat {
 	my $mech = new WWW::Mechanize( autocheck => 1 );
 	$mech->agent($self->{user_agent});
 	my $contents =[];
+	my $need_login = $self->login->{login_url} || undef;
+	_need_login($self,$mech) if (defined $need_login );
 
 	for  ($current_page_no = 1; $current_page_no <= $last_page_no; ++$current_page_no){
 		my $uri = URI->new($current_page_url);
@@ -269,6 +292,8 @@ sub _get_contents_index {
 	my $current_page_url  = $site_url;
 	my $mech = new WWW::Mechanize( autocheck => 1 );
 	$mech->agent($self->{user_agent});
+	my $need_login = $self->login->{login_url} || undef;
+	_need_login($self,$mech) if (defined $need_login );
 	my $contents =[];
 	
 	for  ($current_page_no = 1; $current_page_no <= $last_page_no; ++$current_page_no){
@@ -364,6 +389,8 @@ sub _get_contents_subindex {
 	my $current_page_url  = $site_url;
 	my $mech = new WWW::Mechanize( autocheck => 1 );
 	$mech->agent($self->{user_agent});
+	my $need_login = $self->login->{login_url} || undef;
+	_need_login($self,$mech) if (defined $need_login );
 	my $contents =[];
 	
 	return  'これからつくる';
@@ -433,8 +460,4 @@ sub get_rss {
 
 
 1;
-
-
-
-
 

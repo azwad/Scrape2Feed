@@ -8,24 +8,29 @@ use lib qw (/home/toshi/perl/lib );
 use Encode 'encode_utf8';
 use HashDump;
 use HTML::Entities;
+use WWW::Mechanize;
+
+my $username = 'toshi0104';
+my $password = 'xxxxxxxx';
+
+my $login_url = 'https://mobile.twitter.com/session/new';
+my $target_url = 'https://mobile.twitter.com/toshi0104';
+
 
 my $twitter = Scrape2Feed->new('site_name' => 'twitter.com');
+my $login_opt = { 
+	'login_url' => $login_url,
+	'fields' => {
+		'username' => $username,
+		'password' => $password,
+	},
+};								
+$twitter->login($login_opt);
+$twitter->url($target_url);
 
-my $url = 'https://mobile.twitter.com/search?q=%E5%A4%A7%E9%98%AA&x=24&y=11';
-$twitter->url($url);
+my $content = $twitter->get_contents(1,3);
 
-my $list = $twitter->get_contents(1,3);
-my $rss = $twitter->get_rss();
-
-my $file = '/home/toshi/WWW/tmp/tmp.rss';
-
-open my $fh, '>', $file or die ;
-
-#print $fh decode_entities($rss->as_string);
-
-print $fh $rss;
-
-#HashDump->load($rss);
+HashDump->load($content);
 
 
 
