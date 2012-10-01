@@ -49,4 +49,23 @@
   "index_entry_permalink": '.'
   "entry_date": '//span[@class="post-footers"]'
   "entry_content": '//div[@class="entry-content"]'
+'softbank':
+  "type": 'flat'
+  "site_title": '//head/title'
+  "site_url": 'https://twitter.com/SoftBank'
+  "next_page": 
+  "container": '//div[@class="content"]'
+  "entry_title": '//span[@class="username js-action-profile-name"]'
+  "entry_permalink": '/div/a'
+  "entry_content": '/p[1]'
+'china.org.cn':
+  "type": 'index'
+  "site_title": '//head/title'
+  "site_url": 'http://japanese.china.org.cn/node_7037619.htm'
+  "next_page": '//center/a[2]'
+  "index": '//body/div[2]//table[3]//tr'
+  "index_entry_title": '.'
+  "index_entry_permalink": '//a'
+  "entry_content": 'id("container_txt")'
+  "entry_date": 'id("information")'
 

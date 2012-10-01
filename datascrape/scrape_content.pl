@@ -14,8 +14,8 @@ use WWW::Mechanize;
 use XML::RSS;
 use HTML::Entities;
 
-my $entry_content = '//div[@class="entry-content"]';
-my $entry_date =  '//span[@class="post-footers"]';
+my $entry_content = 'id("container_txt")';
+my $entry_date =  'id("information")';
 
 my $flag_defined_entry_date = 0;
 $flag_defined_entry_date = 1 if defined $entry_date;
@@ -38,7 +38,7 @@ my $scraper = scraper {
 
 			
 	my $mech = WWW::Mechanize->new( 'autocheck' => 1, );
-	my $url = 'http://www.the-journal.jp/contents/kokkai/2012/06/post_305.html';
+	my $url = 'http://japanese.china.org.cn/politics/txt/2012-09/29/content_26674368.htm';
 			
 			my $uri = URI->new($url);
 			say $uri;
@@ -46,4 +46,11 @@ my $scraper = scraper {
 			$entry = $scraper->scrape($mech->content,$uri);
 
 			HashDump->load($entry);
+
+open my $fh ,'>>', 'setting.yaml';
+
+print $fh '  "entry_content": '. "'". $entry_content ."'\n";
+print $fh '  "entry_date": '. "'". $entry_date ."'\n";
+
+close $fh;
 

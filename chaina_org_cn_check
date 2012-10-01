@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use utf8;
+use Scrape2Feed;
+use feature qw (say );
+use lib qw (/home/toshi/perl/lib );
+use HashDump;
+use YAML;
+
+my $setting = 'china.org.cn';
+
+my $site = Scrape2Feed->new('site_name' => $setting);
+
+my $contents = $site->get_contents(1,2);
+
+HashDump->load($contents);
+
+
+
+
